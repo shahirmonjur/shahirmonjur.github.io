@@ -69,7 +69,7 @@ function initTypingAnimation() {
 
         if (!isDeleting && currentCharIndex === currentTagline.length) {
             // Pause at end of tagline
-            typingSpeed = 1200;
+            typingSpeed = 2500;
             isDeleting = true;
         } else if (isDeleting && currentCharIndex === 0) {
             // Move to next tagline
