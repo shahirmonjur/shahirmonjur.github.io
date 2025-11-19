@@ -46,7 +46,7 @@ function initTypingAnimation() {
     const taglines = [
         'Fueled by curiosity, caffeine, and the occasional philosophical crisis.',
         'Balancing machine intelligence with human chaos.',
-        'I build systems… and occasionally break them to understand them better'
+        'Building systems... and occasionally breaking them to understand them better'
     ];
 
     let currentTaglineIndex = 0;
