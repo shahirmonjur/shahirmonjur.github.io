@@ -52,7 +52,7 @@ function initTypingAnimation() {
     let currentTaglineIndex = 0;
     let currentCharIndex = 0;
     let isDeleting = false;
-    let typingSpeed = 45;
+    let typingSpeed = 55;
 
     function typeTagline() {
         const currentTagline = taglines[currentTaglineIndex];
@@ -69,7 +69,7 @@ function initTypingAnimation() {
 
         if (!isDeleting && currentCharIndex === currentTagline.length) {
             // Pause at end of tagline
-            typingSpeed = 900;
+            typingSpeed = 1200;
             isDeleting = true;
         } else if (isDeleting && currentCharIndex === 0) {
             // Move to next tagline
